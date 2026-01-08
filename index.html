@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Accident Hotspot Prediction</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body>
+<div class="container">
+
+<div class="top-bar">
+<div class="card"><h3>Total Hotspots</h3><p>10</p></div>
+<div class="card"><h3>Critical Zones</h3><p>1</p></div>
+<div class="card"><h3>Total Incidents</h3><p>691</p></div>
+<div class="card"><h3>Fatal Accidents</h3><p>47</p></div>
+</div>
+
+<div class="row">
+
+<div class="map-card">
+<h3>Hotspot Map</h3>
+<div id="map"></div>
+</div>
+
+<div class="side-card">
+<h3>Medium Risk • Junction</h3>
+<h2>OMR – Thoraipakkam Signal</h2>
+<div class="score-box">
+<div><span>Risk Score</span><p>6.8 / 10</p></div>
+<div><span>Severity Index</span><p>6.1</p></div>
+</div>
+</div>
+
+</div>
+
+<div class="bottom-row">
+
+<div class="stats-card">
+<h3>Accident Statistics</h3>
+<div class="stats">
+<div><span>Total Accidents</span><p>73</p></div>
+<div><span>Fatal Accidents</span><p class="fatal">5</p></div>
+</div>
+</div>
+
+<div class="recommend-card">
+<h3>Safety Recommendations</h3>
+<ul>
+<li>Extend green signal duration during peak hours</li>
+<li>Install red-light violation cameras</li>
+</ul>
+</div>
+
+</div>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
